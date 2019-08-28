@@ -13,7 +13,6 @@ html, body {
 }
 
 body {
-  background: url(bg-2-1.jpg) no-repeat center center fixed;
   background-size: cover;
   font-size: 20px;
   color: #5e5e5e;
@@ -69,6 +68,8 @@ h2 {
 .social-link > img {
   filter: saturate(0.2);
   transition: 600ms ease;
+  width: 70px;
+  height: 70px;
 }
 .social-link:hover > img {
   filter: saturate(1);

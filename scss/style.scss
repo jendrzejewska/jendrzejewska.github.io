@@ -8,6 +8,7 @@ html, body{
 ///  Variables
 $ubuntu:'Ubuntu', sans-serif;
 $kreon:'Kreon', serif;
+$poppins: 'Poppins', sans-serif;
 
 
 
@@ -41,7 +42,7 @@ body{
   height:200px;
   margin:auto;
 }
-h1,h2{ font-family:$ubuntu;
+h1,h2{ font-family:$poppins;
   color: #5e5e5e;}
 h1{
   margin-top:0;
@@ -54,7 +55,7 @@ h2{
   font-size:1em;
   max-width:700px;
   margin:40px auto;
-  font-family:$ubuntu;
+  font-family:$poppins;
 }
 
 .social-link{

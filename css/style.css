@@ -35,9 +35,9 @@ body {
 
 .logo {
   background: url(logo5.png);
-  background-size: 296px 141px;
-  width: 296px;
-  height: 141px;
+  background-size: 592px 282px;
+  width: 592px;
+  height: 282px;
   margin: auto;
 }
 
@@ -52,7 +52,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .text {

@@ -1,0 +1,140 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 12/03/2019 07:31
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-insurance:before { content: "\f100"; }
+.flaticon-002-briefcase:before { content: "\f101"; }
+.flaticon-003-fender-bender:before { content: "\f102"; }
+.flaticon-004-insurance-1:before { content: "\f103"; }
+.flaticon-005-lifesaver:before { content: "\f104"; }
+.flaticon-006-home-insurance:before { content: "\f105"; }
+.flaticon-007-car-insurance:before { content: "\f106"; }
+.flaticon-008-box:before { content: "\f107"; }
+.flaticon-009-tow-truck:before { content: "\f108"; }
+.flaticon-010-life-insurance:before { content: "\f109"; }
+.flaticon-011-travel-insurance:before { content: "\f10a"; }
+.flaticon-012-savings:before { content: "\f10b"; }
+.flaticon-013-life-insurance-1:before { content: "\f10c"; }
+.flaticon-014-smartphone:before { content: "\f10d"; }
+.flaticon-015-car-insurance-1:before { content: "\f10e"; }
+.flaticon-016-money-bag:before { content: "\f10f"; }
+.flaticon-017-pet-insurance:before { content: "\f110"; }
+.flaticon-018-pet-insurance-1:before { content: "\f111"; }
+.flaticon-019-home-insurance-1:before { content: "\f112"; }
+.flaticon-020-fire:before { content: "\f113"; }
+.flaticon-021-flood:before { content: "\f114"; }
+.flaticon-022-insurance-2:before { content: "\f115"; }
+.flaticon-023-delivery-truck:before { content: "\f116"; }
+.flaticon-024-auction:before { content: "\f117"; }
+.flaticon-025-leak:before { content: "\f118"; }
+.flaticon-026-shipping:before { content: "\f119"; }
+.flaticon-027-padlock:before { content: "\f11a"; }
+.flaticon-028-earthquake:before { content: "\f11b"; }
+.flaticon-029-pet-insurance-2:before { content: "\f11c"; }
+.flaticon-030-fire-1:before { content: "\f11d"; }
+.flaticon-031-life-insurance-2:before { content: "\f11e"; }
+.flaticon-032-life-insurance-3:before { content: "\f11f"; }
+.flaticon-033-life-insurance-4:before { content: "\f120"; }
+.flaticon-034-life-insurance-5:before { content: "\f121"; }
+.flaticon-035-antivirus:before { content: "\f122"; }
+.flaticon-036-laptop:before { content: "\f123"; }
+.flaticon-037-diamond:before { content: "\f124"; }
+.flaticon-038-user:before { content: "\f125"; }
+.flaticon-039-money:before { content: "\f126"; }
+.flaticon-040-travel-insurance-1:before { content: "\f127"; }
+.flaticon-041-home-insurance-2:before { content: "\f128"; }
+.flaticon-042-car-insurance-2:before { content: "\f129"; }
+.flaticon-043-life-insurance-6:before { content: "\f12a"; }
+.flaticon-044-insurance-3:before { content: "\f12b"; }
+.flaticon-045-umbrella:before { content: "\f12c"; }
+.flaticon-046-thief:before { content: "\f12d"; }
+.flaticon-047-safebox:before { content: "\f12e"; }
+.flaticon-048-funeral:before { content: "\f12f"; }
+.flaticon-049-building:before { content: "\f130"; }
+.flaticon-050-mortarboard:before { content: "\f131"; }
+    
+    $font-Flaticon-001-insurance: "\f100";
+    $font-Flaticon-002-briefcase: "\f101";
+    $font-Flaticon-003-fender-bender: "\f102";
+    $font-Flaticon-004-insurance-1: "\f103";
+    $font-Flaticon-005-lifesaver: "\f104";
+    $font-Flaticon-006-home-insurance: "\f105";
+    $font-Flaticon-007-car-insurance: "\f106";
+    $font-Flaticon-008-box: "\f107";
+    $font-Flaticon-009-tow-truck: "\f108";
+    $font-Flaticon-010-life-insurance: "\f109";
+    $font-Flaticon-011-travel-insurance: "\f10a";
+    $font-Flaticon-012-savings: "\f10b";
+    $font-Flaticon-013-life-insurance-1: "\f10c";
+    $font-Flaticon-014-smartphone: "\f10d";
+    $font-Flaticon-015-car-insurance-1: "\f10e";
+    $font-Flaticon-016-money-bag: "\f10f";
+    $font-Flaticon-017-pet-insurance: "\f110";
+    $font-Flaticon-018-pet-insurance-1: "\f111";
+    $font-Flaticon-019-home-insurance-1: "\f112";
+    $font-Flaticon-020-fire: "\f113";
+    $font-Flaticon-021-flood: "\f114";
+    $font-Flaticon-022-insurance-2: "\f115";
+    $font-Flaticon-023-delivery-truck: "\f116";
+    $font-Flaticon-024-auction: "\f117";
+    $font-Flaticon-025-leak: "\f118";
+    $font-Flaticon-026-shipping: "\f119";
+    $font-Flaticon-027-padlock: "\f11a";
+    $font-Flaticon-028-earthquake: "\f11b";
+    $font-Flaticon-029-pet-insurance-2: "\f11c";
+    $font-Flaticon-030-fire-1: "\f11d";
+    $font-Flaticon-031-life-insurance-2: "\f11e";
+    $font-Flaticon-032-life-insurance-3: "\f11f";
+    $font-Flaticon-033-life-insurance-4: "\f120";
+    $font-Flaticon-034-life-insurance-5: "\f121";
+    $font-Flaticon-035-antivirus: "\f122";
+    $font-Flaticon-036-laptop: "\f123";
+    $font-Flaticon-037-diamond: "\f124";
+    $font-Flaticon-038-user: "\f125";
+    $font-Flaticon-039-money: "\f126";
+    $font-Flaticon-040-travel-insurance-1: "\f127";
+    $font-Flaticon-041-home-insurance-2: "\f128";
+    $font-Flaticon-042-car-insurance-2: "\f129";
+    $font-Flaticon-043-life-insurance-6: "\f12a";
+    $font-Flaticon-044-insurance-3: "\f12b";
+    $font-Flaticon-045-umbrella: "\f12c";
+    $font-Flaticon-046-thief: "\f12d";
+    $font-Flaticon-047-safebox: "\f12e";
+    $font-Flaticon-048-funeral: "\f12f";
+    $font-Flaticon-049-building: "\f130";
+    $font-Flaticon-050-mortarboard: "\f131";

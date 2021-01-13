@@ -675,7 +675,8 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 18px;
     font-weight: 300;
     display: block;
-    color: #000; }
+    color: #000; 
+    }
   #ftco-testimonial .testimony-slide figure {
     margin-bottom: 10px;
     display: -moz-inline-stack;
@@ -684,7 +685,8 @@ h1, h2, h3, h4, h5, h6, figure {
     *display: inline; }
     #ftco-testimonial .testimony-slide figure img {
       width: 140px;
-      border-radius: 7px; }
+      border-radius: 7px; 
+    }
   #ftco-testimonial .testimony-slide blockquote {
     border: none;
     margin: 30px auto;

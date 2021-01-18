@@ -198,8 +198,10 @@
 
 
 
-	
+      
 
+
+     
 	
 
 	<div id="ftco-consult">
@@ -208,42 +210,58 @@
 			<div class="ftco-heading">
 				<h2>Skontaktuj się z nami!</h2>
 			</div>
-			<form action="mailto:wiewir1107@gmail.com" method="POST" enctype="multipart/form-data" >
-				<div class="row form-group">
-					<div class="col-md-6">
-						<label for="fname">Imię</label>
-						<input type="text" id="fname" class="form-control">
-					</div>
-					<div class="col-md-6">
-						<label for="lname">Nazwisko</label>
-						<input type="text" id="lname" class="form-control">
-					</div>
-				</div>
 
-				<div class="row form-group">
-					<div class="col-md-12">
-						<label for="email">Email</label>
-						<input type="text" id="email" class="form-control">
-					</div>
-				</div>
+			<form class="gform pure-form pure-form-stacked" method="POST" action="https://script.google.com/macros/s/AKfycbw2n_zV8SVW7FzLHnbY6XVGn7ww8ROgfDD9FyiD2BhRgOqD93WX/exec">
+ 				<div class="form-elements">
 
-				<div class="row form-group">
-					<div class="col-md-12">
-						<label for="subject">Temat</label>
-						<input type="text" id="subject" class="form-control">
+				 	<div class="row form-group">
+				      <fieldset class="pure-group col-md-6">
+				        <label for="name">Imię: </label>
+				        <input id="name" name="name" placeholder="" class="form-control"/>
+				      </fieldset>
+				       <fieldset class="pure-group col-md-6">
+				        <label for="name">Nazwisko: </label>
+				        <input id="last_name" name="last_name" placeholder="" class="form-control"/>
+				      </fieldset>
 					</div>
-				</div>
 
-				<div class="row form-group">
-					<div class="col-md-12">
-						<label for="message">Wiadomość</label>
-						<textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+
+					<div class="row form-group">
+						<fieldset class="pure-group col-md-12">
+				        <label for="email"><em>Twój</em> Adres Email:</label>
+				        <input id="email" name="email" type="email" value=""
+				        required placeholder="your.name@email.com" class="form-control"/>
+				        <span class="email-invalid" style="display:none">
+				          Podaj poprawny adres</span>
+				      </fieldset>
 					</div>
-				</div>
-				<div class="form-group">
-					<input type="submit" value="Send Message" class="btn btn-primary">
-				</div>
 
+					<div class="row form-group">
+						<fieldset class="pure-group col-md-12">
+							<label for="subject">Temat</label>
+							<input name="subject" id="subject" class="form-control">
+						</fieldset>
+					</div>
+
+					<div class="row form-group">
+				      <fieldset class="pure-group col-md-12">
+				        <label for="message">Wiadomość: </label>
+				        <textarea id="message" name="message" rows="10" cols="30" 
+				        placeholder="W czym moglibyśmy Ci pomóc?" class="form-control"></textarea>
+				      </fieldset>
+				  	</div>
+
+	  				<div class="form-group">
+						<input type="submit" value="Wyślij wiadomość" class="btn btn-primary">
+					</div> 
+
+				   
+					
+				</div>
+				 <!-- Customise the Thankyou Message People See when they submit the form: -->
+				    <div class="thankyou_message ftco-heading" style="display:none;">
+				      <h2>Dziękujemy za kontakt! Odpowiemy najszybciej jak to możliwe!</h2>
+				    </div>
 			</form>	
 		</div>
 	</div>
@@ -263,9 +281,9 @@
 							<div class="item" style="height: 140px;">
 								<div class="testimony-slide active text-center">
 									<figure>
-										<img src="images/clients/ksuw.jpg" alt="user">
+										<img src="images/clients/cloudwise.png" alt="user">
 									</figure>
-									<span>Klub skutecznej utraty wagi</span>
+									<span>Cloudwise</span>
 									
 								</div>
 							</div>
@@ -287,15 +305,7 @@
 									
 								</div>
 							</div>
-							<div class="item" style="height: 140px;">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/clients/cloudwise.png" alt="user">
-									</figure>
-									<span>Cloudwise</span>
-									
-								</div>
-							</div>
+							
 							<div class="item" style="height: 140px;">
 								<div class="testimony-slide active text-center">
 									<figure>
@@ -329,6 +339,15 @@
 										<img src="images/clients/snackpol.jpg" alt="user">
 									</figure>
 									<span>Snackpol</span>
+									
+								</div>
+							</div>
+							<div class="item" style="height: 140px;">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="images/clients/ksuw.jpg" alt="user">
+									</figure>
+									<span>Klub skutecznej utraty wagi</span>
 									
 								</div>
 							</div>
@@ -452,6 +471,9 @@
 	<!-- Magnific Popup -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
+	<!-- Ajax form submit -->
+	  <script data-cfasync="false" type="text/javascript"
+  src="js/form-submission-handler.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
 <!-- TODO add google analytics -->

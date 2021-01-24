@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6, figure {
       display: inline;
       text-transform: uppercase; }
       .ftco-nav ul li > a {
-        font-size: 13px;
+        font-size: 15px;
         letter-spacing: .1em;
         padding: 30px 15px;
         color: rgba(255, 255, 255, 0.7);

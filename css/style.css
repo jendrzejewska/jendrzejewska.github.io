@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6, figure {
           font-size: 50px; }
         #ftco-hero .flexslider .slider-text > .slider-text-inner .btn {
           padding: 15px 30px;
-          background: #3f52e3 !important;
+          background: #565AA6 !important;
           color: #fff;
           border: none !important;
           font-size: 18px; }
@@ -474,7 +474,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #ftco-content .choose-form,
 #ftco-consult .choose-form {
-  background: #3f52e3; }
+  background: #565AA6; }
   #ftco-content .choose-form .ftco-heading,
   #ftco-consult .choose-form .ftco-heading {
     margin-bottom: 40px; }
@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5, h6, figure {
       border-color: #2f89fc; }
 
 .progress-bar {
-  background-color: #3f52e3 !important;
+  background-color: #565AA6 !important;
   font-size: 14px; }
 
 #ftco-intro {
@@ -515,7 +515,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-top: -40px;
   z-index: 1;
   width: 50%;
-  background: #6c7ae9;
+  background: #8688A6;
   color: #fff;
   position: relative;
   overflow: hidden; }
@@ -526,7 +526,7 @@ h1, h2, h3, h4, h5, h6, figure {
     color: #fff;
     font-weight: 700; }
   .third-col.third-col-color {
-    background: #3f52e3; }
+    background: #565AA6; }
   .third-col .icon {
     position: absolute;
     top: 0px;
@@ -550,7 +550,7 @@ h1, h2, h3, h4, h5, h6, figure {
   .services h3 {
     font-weight: 400; }
     .services h3 a {
-      color: #3f52e3; }
+      color: #565AA6; }
   .services .icon {
     text-align: center;
     margin: 0 auto;
@@ -567,9 +567,9 @@ h1, h2, h3, h4, h5, h6, figure {
       height: 70px;
       font-size: 60px;
       line-height: 40px;
-      color: #3f52e3; }
+      color: #565AA6; }
   .services:hover, .services:focus {
-    background: #3f52e3;
+    background: #565AA6;
     color: rgba(255, 255, 255, 0.7); }
     .services:hover h3 a, .services:focus h3 a {
       color: #fff; }
@@ -780,7 +780,7 @@ h1, h2, h3, h4, h5, h6, figure {
     line-height: 1.2;
     font-size: 20px; }
     .blog-featured h2 a {
-      color: #3f52e3; }
+      color: #565AA6; }
       .blog-featured h2 a:hover {
         color: #2f89fc; }
 
@@ -798,7 +798,7 @@ h1, h2, h3, h4, h5, h6, figure {
   .blog-entry .desc {
     padding-left: 170px; }
     .blog-entry .desc h3 a {
-      color: #3f52e3; }
+      color: #565AA6; }
       .blog-entry .desc h3 a:hover {
         color: #2f89fc; }
     .blog-entry .desc .meta {

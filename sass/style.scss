@@ -9,6 +9,8 @@ $padding-base-vertical: 14px !default;
 
 $brand-primary: #0c1c38 !default;
 $brand-secondary: #61627A !default;
+$brand-third: #A5A6BA !default;
+$brand-fourth: #d9dadb !default;
 
 $brand-white: #fff;
 $brand-black: #000;
@@ -142,7 +144,7 @@ h1, h2, h3, h4, h5 {
 	}
 }
 a {
-	color: $brand-primary;
+	color: $brand-fourth;
 	@include transition(.5s);
 	&:hover, &:active, &:focus {
 		color: $brand-primary;
@@ -664,7 +666,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	margin-top: -40px;
 	z-index: 1;
 	width: 50%;
-	background: lighten($brand-secondary, 10%);
+	background: $brand-thirs;
 	color: $brand-white;
 	position: relative;
 	overflow: hidden;

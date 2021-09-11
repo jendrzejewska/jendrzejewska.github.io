@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5 {
       content: ""; }
 
 a {
-  color: #d9dadb;
+  color: #61627A;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -474,7 +474,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #ftco-content .choose-form,
 #ftco-consult .choose-form {
-  background: #0c1c38; }
+  background: #61627A; }
   #ftco-content .choose-form .ftco-heading,
   #ftco-consult .choose-form .ftco-heading {
     margin-bottom: 40px; }
@@ -550,7 +550,7 @@ h1, h2, h3, h4, h5, h6, figure {
   .services h3 {
     font-weight: 400; }
     .services h3 a {
-      color: #0c1c38; }
+      color: #61627A; }
   .services .icon {
     text-align: center;
     margin: 0 auto;
@@ -567,9 +567,9 @@ h1, h2, h3, h4, h5, h6, figure {
       height: 70px;
       font-size: 60px;
       line-height: 40px;
-      color: #0c1c38; }
+      color: #61627A; }
   .services:hover, .services:focus {
-    background: #0c1c38;
+    background: #61627A;
     color: rgba(255, 255, 255, 0.7); }
     .services:hover h3 a, .services:focus h3 a {
       color: #fff; }

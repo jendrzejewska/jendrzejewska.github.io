@@ -112,7 +112,7 @@
 	<div class="site-section">
 		<div class="container">
 			<div class="row">
-					<div class="col-md-10 col-md-offset-1 text-center">
+					<div class="col-md-10 col-md-offset-1 text-center ftco-heading">
 					<h2> Ideą, która przyświeca nam w codziennej pracy, jest założenie, że nie ma sytuacji bez wyjścia. </h2>
 					<p><a href="about.html" class="btn btn-primary">Więcej o Kancelarii</a></p>
 				</div>
@@ -122,7 +122,7 @@
 	<div class="ftco-practice" data-stellar-background-ratio="0.5" id="are_of_practice">
 		<div class="container">
 			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center ftco-heading">
+				<div class="col-md-4 col-md-offset-2 text-center ftco-heading">
 					<h2>Obszar działalności</h2>
 				</div>
 			</div>
@@ -224,9 +224,67 @@
      
 	
 
-	<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJHbn6yTZ1_UYRMNO78QkboAw&key=AIzaSyCFM-r4nWCdsFKjRoDvS3FoozO3Ws0-Zds"  frameborder="0" style="border:0; height: 450px; width: 100%;" allowfullscreen></iframe>
-		
+	<div id="ftco-consult">
+		<iframe class="col-md-6" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJHbn6yTZ1_UYRMNO78QkboAw&key=AIzaSyCFM-r4nWCdsFKjRoDvS3FoozO3Ws0-Zds" allowfullscreen></iframe>
+		<div class="choose choose-form animate-box">
+			<div class="ftco-heading">
+				<h2>Skontaktuj się z nami!</h2>
+			</div>
 
+			<form class="gform pure-form pure-form-stacked" method="POST" action="https://script.google.com/macros/s/AKfycbw2n_zV8SVW7FzLHnbY6XVGn7ww8ROgfDD9FyiD2BhRgOqD93WX/exec">
+ 				<div class="form-elements">
+
+				 	<div class="row form-group">
+				      <fieldset class="pure-group col-md-6">
+				        <label for="name">Imię: </label>
+				        <input id="name" name="name" placeholder="" class="form-control"/>
+				      </fieldset>
+				       <fieldset class="pure-group col-md-6">
+				        <label for="name">Nazwisko: </label>
+				        <input id="last_name" name="last_name" placeholder="" class="form-control"/>
+				      </fieldset>
+					</div>
+
+
+					<div class="row form-group">
+						<fieldset class="pure-group col-md-12">
+				        <label for="email"><em>Twój</em> Adres Email:</label>
+				        <input id="email" name="email" type="email" value=""
+				        required placeholder="your.name@email.com" class="form-control"/>
+				        <span class="email-invalid" style="display:none">
+				          Podaj poprawny adres</span>
+				      </fieldset>
+					</div>
+
+					<div class="row form-group">
+						<fieldset class="pure-group col-md-12">
+							<label for="subject">Temat</label>
+							<input name="subject" id="subject" class="form-control">
+						</fieldset>
+					</div>
+
+					<div class="row form-group">
+				      <fieldset class="pure-group col-md-12">
+				        <label for="message">Wiadomość: </label>
+				        <textarea id="message" name="message" rows="10" cols="30" 
+				        placeholder="W czym moglibyśmy Ci pomóc?" class="form-control"></textarea>
+				      </fieldset>
+				  	</div>
+
+	  				<div class="form-group">
+						<input type="submit" value="Wyślij wiadomość" class="btn btn-primary">
+					</div> 
+
+				   
+					
+				</div>
+				 <!-- Customise the Thankyou Message People See when they submit the form: -->
+				    <div class="thankyou_message ftco-heading" style="display:none;">
+				      <h2>Dziękujemy za kontakt! Odpowiemy najszybciej jak to możliwe!</h2>
+				    </div>
+			</form>	
+		</div>
+	</div>
 
 	
 <div id="ftco-testimonial" class="ftco-bg-section" style="padding: 3.5em;">
@@ -252,27 +310,45 @@
 							<div class="item" style="height: 180px;">
 								<div class="testimony-slide active text-center">
 									<figure>
-										<img src="images/clients/buh_test.png" alt="user">
+										<img src="images/clients/drivetech_polska.png" alt="user">
 									</figure>
-									<span>Buh Test</span>
+									<span>Drivetech Polska</span>
 									
 								</div>
 							</div>
 							<div class="item" style="height: 180px;">
 								<div class="testimony-slide active text-center">
 									<figure>
-										<img src="images/clients/ecostar.png" alt="user">
+										<img src="images/clients/bio_pol.png" alt="user">
 									</figure>
-									<span>Ecostar Group</span>
+									<span>Bio-Pol</span>
 									
 								</div>
 							</div>
 							<div class="item" style="height: 180px;">
 								<div class="testimony-slide active text-center">
 									<figure>
-										<img src="images/clients/flebolog2.png" alt="user">
+										<img src="images/clients/klostermann_group.png" alt="user">
 									</figure>
-									<span>Poradnia Flebologiczna</span>
+									<span>Klostermann Group</span>
+									
+								</div>
+							</div>
+							<div class="item" style="height: 180px;">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="images/clients/gary_woodpecker.png" alt="user">
+									</figure>
+									<span>Gary Woodpecker</span>
+									
+								</div>
+							</div>
+							<div class="item" style="height: 180px;">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="images/clients/thermika.png" alt="user">
+									</figure>
+									<span>Thermika</span>
 									
 								</div>
 							</div>
@@ -343,6 +419,15 @@
 							<div class="item" style="height: 180px;">
 								<div class="testimony-slide active text-center">
 									<figure>
+										<img src="images/clients/buh_test.png" alt="user">
+									</figure>
+									<span>Buh Test</span>
+									
+								</div>
+							</div>
+							<div class="item" style="height: 180px;">
+								<div class="testimony-slide active text-center">
+									<figure>
 										<img src="images/clients/yoga_retreatment.png" alt="user">
 									</figure>
 									<span>Yoga retreatment</span>
@@ -372,7 +457,7 @@
 							<li><a href="https://www.linkedin.com/company/adwokat-jendrzejewska/"><i class="icon-linkedin"></i></a></li>
 						</ul>
 					
-					<p>ul. Kartuska 215, <br>80-122  Gdańsk</p>
+					<p>ul. Do studzienki 63/107, <br>80-227  Gdańsk</p>
 				</div>
 			</div>
 		</div>
@@ -401,7 +486,7 @@
 				<div class="col-md-3 col-md-push-1">
 					<h4>Kontakt</h4>
 					<ul class="ftco-footer-links">
-						<li>ul. Kartuska 215, <br>80-122  Gdańsk</li>
+						<li>ul. Do studzienki 63/107, <br>80-227  Gdańsk</li>
 						<li><a href="tel:+48888050093">+48 888 050 093</a></li>
 						<li><a href="mailto:adwokat@jendrzejewska.pl">adwokat@jendrzejewska.pl</a></li>
 					</ul>

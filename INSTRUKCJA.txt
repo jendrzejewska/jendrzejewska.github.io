@@ -1,0 +1,10 @@
+STRONA KANCELARII – WERSJA BEZ FORMULARZA
+
+1. Wgraj zawartość tego katalogu do katalogu publicznego strony (zwykle public_html).
+2. Strona główna: index.html.
+3. Polityka prywatności: polityka-prywatnosci/index.html – link znajduje się w stopce.
+4. Poradnik: poradnik/index.html.
+5. Kontakt: kliknięcie przycisku „Napisz do kancelarii” uruchamia program pocztowy użytkownika (mailto:). Na stronie widoczny jest również adres e-mail do skopiowania oraz telefon.
+6. Nie są wymagane PHP, SMTP, hasła ani zewnętrzny operator formularzy.
+7. Przed publikacją zweryfikuj numer telefonu, adres e-mail i dane administratora oraz zgodność polityki prywatności z faktycznym hostingiem i stosowanymi usługami.
+8. Włącz HTTPS i sprawdź odnośniki oraz wygląd strony na telefonie.

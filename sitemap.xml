@@ -1,77 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://jendrzejewska.pl/</loc>
-  <lastmod>2021-04-20T17:49:57+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://jendrzejewska.pl/index.html</loc>
-  <lastmod>2021-04-20T17:49:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jendrzejewska.pl/blog.html</loc>
-  <lastmod>2021-04-20T17:49:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jendrzejewska.pl/fizyczne.html</loc>
-  <lastmod>2021-04-20T17:49:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jendrzejewska.pl/przedsiebiorcy.html</loc>
-  <lastmod>2021-04-20T17:49:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jendrzejewska.pl/about.html</loc>
-  <lastmod>2021-04-20T17:49:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jendrzejewska.pl/contact.html</loc>
-  <lastmod>2021-04-20T17:49:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jendrzejewska.pl/blog-tarcza6.html</loc>
-  <lastmod>2021-04-20T17:49:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jendrzejewska.pl/blog-zatrzymanie.html</loc>
-  <lastmod>2021-04-20T17:49:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jendrzejewska.pl/blog-pies.html</loc>
-  <lastmod>2021-04-20T17:49:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jendrzejewska.pl/blog-kontrahent.html</loc>
-  <lastmod>2021-04-20T17:49:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jendrzejewska.pl/blog-zwolnienia.html</loc>
-  <lastmod>2021-04-20T17:49:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jendrzejewska.pl/blog-psa.html</loc>
-  <lastmod>2021-04-20T17:49:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://jendrzejewska.pl/</loc></url>
+  <url><loc>https://jendrzejewska.pl/blog-alicja.html</loc></url>
+  <url><loc>https://jendrzejewska.pl/blog-franki.html</loc></url>
+  <url><loc>https://jendrzejewska.pl/blog-kontrahent.html</loc></url>
+  <url><loc>https://jendrzejewska.pl/blog-nowadestynacja.html</loc></url>
+  <url><loc>https://jendrzejewska.pl/blog-pies.html</loc></url>
+  <url><loc>https://jendrzejewska.pl/blog-psa.html</loc></url>
+  <url><loc>https://jendrzejewska.pl/blog-spolki.html</loc></url>
+  <url><loc>https://jendrzejewska.pl/blog-tarcza6.html</loc></url>
+  <url><loc>https://jendrzejewska.pl/blog-zatrzymanie.html</loc></url>
+  <url><loc>https://jendrzejewska.pl/blog-zwolnienia.html</loc></url>
+  <url><loc>https://jendrzejewska.pl/blog.html</loc></url>
+  <url><loc>https://jendrzejewska.pl/konsultacja-przedrozwodowa/</loc></url>
+  <url><loc>https://jendrzejewska.pl/nieruchomosci/</loc></url>
+  <url><loc>https://jendrzejewska.pl/obsluga-firm/</loc></url>
+  <url><loc>https://jendrzejewska.pl/odszkodowania/</loc></url>
+  <url><loc>https://jendrzejewska.pl/polityka-prywatnosci/</loc></url>
+  <url><loc>https://jendrzejewska.pl/poradnik/</loc></url>
+  <url><loc>https://jendrzejewska.pl/poradnik/7-rzeczy-przed-pozwem-rozwodowym/</loc></url>
+  <url><loc>https://jendrzejewska.pl/poradnik/opieka-kontakty-alimenty/</loc></url>
+  <url><loc>https://jendrzejewska.pl/prawo-karne/</loc></url>
+  <url><loc>https://jendrzejewska.pl/spadki-i-dziedziczenie/</loc></url>
+  <url><loc>https://jendrzejewska.pl/spory-z-bankami/</loc></url>
+  <url><loc>https://jendrzejewska.pl/sprawy-cywilne/</loc></url>
+  <url><loc>https://jendrzejewska.pl/sprawy-rodzinne/</loc></url>
+  <url><loc>https://jendrzejewska.pl/zadluzenie-i-upadlosc/</loc></url>
 </urlset>

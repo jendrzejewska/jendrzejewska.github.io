@@ -44,7 +44,11 @@
   ].forEach(function (item) {
     var a = document.createElement("a");
     a.textContent = item.flag;
-    a.href = item.id === "pl" ? base : "/" + item.id + base;
+    if (base === "/dopomoha-ukraintsiam/" && item.id !== "ua") {
+      a.href = item.id === "pl" ? "/" : "/en/";
+    } else {
+      a.href = item.id === "pl" ? base : "/" + item.id + base;
+    }
     a.setAttribute("aria-label", item.name);
     a.setAttribute("title", item.name);
     a.setAttribute("hreflang", item.id === "ua" ? "uk" : item.id);
